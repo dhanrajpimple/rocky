@@ -1,0 +1,48 @@
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #about-id{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #home-section{
+    height: 50vh;
+    
+  }
+
+  #servie2{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .ser-class{
+   display: flex;
+   align-items: center;
+
+    justify-content: center;
+  
+  }
+  .footer-section {
+    text-align: center;
+  }
+  #contact ul{
+     display: flex;
+     flex-direction: column;
+
+  }
+  
+
+  footer li:hover,
+ footer a:hover{
+  background: lightgrey;;
+}
+
+#email a{
+  text-align: center;
+  display: flex;
+justify-content: center;
+}
+}
