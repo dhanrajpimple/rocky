@@ -4,16 +4,36 @@
   }
   #hamburger-nav {
     display: flex;
+    
   }
   #about-id{
     display: flex;
     flex-direction: column-reverse;
   }
   #home-section{
-    height: 50vh;
+    height: 30vh;
     
   }
-
+  .li{
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   }
+   .li img{
+    height: 3rem;
+    margin: 0.5%;
+     padding:0.5%;
+   }
+   .li span{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    
+   margin:0.5%;
+   padding:0.5%;
+   }
   #servie2{
     display: flex;
     flex-direction: column-reverse;
@@ -33,12 +53,65 @@
      flex-direction: column;
 
   }
-  
+  .rowww{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+   margin-bottom: 5%;
+  }
+  .boxx{
+    text-align: center;
+    height: 60%;
+    width:100%;
+    box-shadow: 2px 2px 5px rgba(48, 15, 15, 0.4);
+    border-radius: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+  }
 
+ .boxx .img{
+  margin-top: 5%;
+    height: 25vh;
+    width: 80%;
+    border-radius: 2rem;
+  }
+ .boxx .btn{
+    color: black;
+    border: 2px solid black;
+    border-radius: 2rem;
+    width: 60%;
+    background-color: aliceblue;
+    margin-bottom: 5%;
+  }
+.chutya{
+  font-size: 190%;
+  font-weight: bold;
+ 
+}
   footer li:hover,
  footer a:hover{
   background: lightgrey;;
 }
+
+.headi{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#home-section h1{
+  font-size: 8vw;
+   color: black;
+   font-weight: bold;
+ }
+ 
+ #home-section h4{
+  font-size: 4vw;
+   color: black;
+ }
 
 #email a{
   text-align: center;

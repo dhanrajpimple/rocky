@@ -18,7 +18,8 @@
       width: 45rem;
   }
  .li{
-  width: 100%;
+  width: 40vw;
+  margin: 1rem;
  }
 .li img{
   height: 3rem;

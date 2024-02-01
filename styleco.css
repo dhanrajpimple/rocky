@@ -1,11 +1,14 @@
 
+*{
+  margin: 0;
+  padding: 0;
+}
        .box {
            
-            /* padding: 2rem; */
-            margin: 4rem;
+           
             text-align: center;
-            height: 32rem;
-            width:30rem;
+            height: 70vh;
+            width:30vw;
             box-shadow: 2px 2px 5px rgba(48, 15, 15, 0.4);
             border-radius: 4rem;
             display: flex;
@@ -18,20 +21,20 @@
          background-color: rgb(227, 238, 234);
         }
        
-        .box-row{
-           display: flex;
-           margin-top: 5rem;
-        }
         .img{
-          height: 15rem;
-          width: 21rem;
+          height: 30vh;
+          width: 25vw;
           border-radius: 2rem;
         }
         .btn{
           color: black;
           border: 2px solid black;
           border-radius: 2rem;
-          width: 10rem;
+          width: 10vw;
           background-color: aliceblue;
         }
 
+.rowww{
+  display: flex;
+  flex-direction: row;
+}
