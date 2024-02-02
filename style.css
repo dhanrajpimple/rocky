@@ -196,12 +196,11 @@ footer ul{
   padding-right: 0.2rem;
 }
 footer  a {
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-decoration: none;
   color: black;
 } 
-footer li:hover,
- footer a:hover{
+footer li:hover{
   background: lightgrey;;
 }
 footer{
